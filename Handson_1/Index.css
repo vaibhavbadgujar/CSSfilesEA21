@@ -1,0 +1,30 @@
+ol {
+    color: darkred;
+}
+h3 {
+    color: crimson;
+    font-style: italic;
+
+}
+.paral {
+    display: inline;
+    background-color: yellow;
+}
+p {
+    display: inline;
+}
+.paral1 {
+    text-decoration: line-through;
+}
+.paral2 {
+    color: brown;
+}
+.paral3 {
+    color: crimson;
+    background-color: yellow;
+    text-decoration: none;
+}
+.paral4 {
+    color: brown;
+   word-spacing: 5px;
+}
