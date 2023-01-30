@@ -1,0 +1,122 @@
+.margin {
+
+    margin: 0px;
+    border: 10px groove greenyellow;
+    height: 2700px;
+    background-image: url(./1631002138008.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: large;
+}
+
+.box {
+
+    border: 10px red solid;
+   
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    display: inline-flex;
+    padding: 80px;
+    position: relative;
+    font-size: x-large;
+}
+
+.box1 {
+    width: 350px;
+    display: inline-block;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    top: 150px;
+}
+
+.box2 {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    width: 300px;
+    right: 100px;
+}
+
+pre {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 450px;
+}
+
+.box3 {
+    background-color: ghostwhite;
+    margin-top: 200px;
+    text-align: center;
+    color: red;
+    border-top: 50px;
+    border: 7px solid ;
+    border-style: dashed;
+    position: relative;
+    left: 1000px;
+    width: 500px;
+    height: 700px;
+    padding: 10px;
+    top: 140px;
+
+}
+
+.top {
+    text-align: center;
+}
+
+.circle {
+    background-color: mediumseagreen;
+    font-weight:bold;
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+    color: black;
+    padding-top: 100px;
+    height: 300px;
+    width: 400px;
+    border: 10px gray solid;
+    text-decoration: underline;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    bottom: 350px;
+    left: 250px;
+
+}
+.box4
+{
+
+    border: 10px red solid;
+    width: 550px;
+    border-radius: 45px;
+    background-color: black;
+    color: aliceblue;
+    display: inline-flex;
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px;
+}
+.innerbox {
+    text-align: center;
+    margin: 40px;
+    flex: 23%;
+    height: 310px;
+    border: 5px solid green;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-color: aqua;
+    
+}
