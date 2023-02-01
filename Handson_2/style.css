@@ -2,9 +2,10 @@
 
     margin: 0px;
     border: 10px groove greenyellow;
-    height: 2700px;
+    
     background-image: url(./1631002138008.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
     font-size: large;
 }
@@ -12,40 +13,40 @@
 .box {
 
     border: 10px red solid;
-   
     border-radius: 20px;
     background-color: black;
     color: aliceblue;
     display: inline-flex;
-    padding: 80px;
+    padding: 30px;
     position: relative;
     font-size: x-large;
+    display: inline-block;
+}
+.box0{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+
 }
 
 .box1 {
     width: 350px;
     display: inline-block;
-    display: inline-block;
-    position: relative;
-    left: 80px;
-    top: 150px;
+    position: static;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .box2 {
     display: inline-block;
     position: relative;
-    top: 50px;
-    width: 300px;
-    right: 100px;
+    bottom: 100px;
+    right: 150px;
+    
+    
 }
 
-pre {
-    display: inline-block;
-    position: relative;
-    top: 100px;
-    left: 50px;
-    width: 450px;
-}
+
 
 .box3 {
     background-color: ghostwhite;
@@ -55,12 +56,12 @@ pre {
     border-top: 50px;
     border: 7px solid ;
     border-style: dashed;
-    position: relative;
-    left: 1000px;
+    
+    margin-left: 950px;
     width: 500px;
     height: 700px;
     padding: 10px;
-    top: 140px;
+   
 
 }
 
@@ -83,8 +84,9 @@ pre {
     border-radius: 50%;
     display: inline-block;
     position: relative;
-    bottom: 350px;
+    bottom: 450px;
     left: 250px;
+    display: inline-block;
 
 }
 .box4
@@ -97,17 +99,16 @@ pre {
     color: aliceblue;
     display: inline-flex;
     padding: 20px;
-    position: relative;
-    bottom: 20px;
-    left: 150px;
-    text-align: center;
     justify-content: center;
     font-size: 50px;
+    margin-left: 615px;
+    
 }
 .flex-container {
     display: flex;
     flex-flow: row wrap;
-    border: 2px;
+    border: 2px ;
+
 }
 .innerbox {
     text-align: center;
@@ -119,4 +120,10 @@ pre {
     border-radius: 20px;
     background-color: aqua;
     
+}
+
+@media(min-width: 992px){
+    .box1,.box2,.box3,.box0{
+
+    }
 }
