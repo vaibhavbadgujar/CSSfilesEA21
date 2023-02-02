@@ -1,0 +1,45 @@
+.header {
+
+}
+
+.h {
+font-size: 40px;
+color:  #424242;
+font-weight: bold;
+
+
+}
+.circle{
+    
+    border: 1px;
+    background-color: #00A5EC;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    
+
+
+}
+.flex-container {
+    margin: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #67676729;
+}
+.flexhead {
+    color: #00A5EC;
+}
+.innerbox {
+    font-size: xx-large;
+    text-align: center;
+    margin: 40px;
+    flex: 30%;
+    border: 5px ;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #FFFFFF;  
+width: 352px;
+height: 360px;
+display: inline;
+}

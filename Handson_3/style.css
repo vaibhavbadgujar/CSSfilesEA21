@@ -1,0 +1,156 @@
+.box {
+    margin: 1px;
+    border: 5px red solid;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 5px purple;
+}
+.bgcolor{
+    background-color: darkgrey;
+}
+.box0{
+     
+}
+.welcome {
+   
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px red;
+    line-height: 50px;
+    font-size: xx-large;
+    margin-left: 680px;
+    width: 500px;
+    height: 200px;
+     padding: 10px;
+    
+}
+.green{
+    border: 8px solid green;
+    padding: 10px;
+}
+.flex{
+    margin: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+
+}
+.innerbox {
+    width: 350px;
+    height: 200px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(160, 28, 121);
+    padding: 20px;
+}
+.innerbox{
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+}
+.box1{
+    line-height: 50px;
+
+}
+.img {
+    padding: 35px;
+}
+.box2{
+    
+    
+}
+.box3{
+    text-align: start;
+}
+.box4{
+    text-align: center;
+   
+}
+.shop{
+font-weight: bold;
+font-size: x-large;
+text-align: center;
+display: block;
+
+}
+.table{
+    border: 10px solid purple;
+    margin: 15px;
+    background-color: green;
+    width: 800px;
+    text-align: center;
+    position: relative;
+    left: 510px;
+    height: 615px;
+
+}
+.bold{
+    font-weight: bold;
+    font-size: x-large;
+}
+.flex3{
+    padding: 10px;
+}
+.table0{
+    
+width: 380px;
+height: 250px;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+
+}
+.table1{
+   text-align: center;
+    background-color: rgb(240, 230, 85);
+    display: inline-block;
+    margin: 3px;
+   
+
+}
+.table2{
+    text-align: center;
+    background-color: rgb(240, 230, 85);
+    display: inline-block;
+    margin: 3px;
+    position: relative;
+top: 25px;    
+
+}
+.table3{
+    margin: 3px;
+    text-align: center;
+    background-color: rgb(240, 230, 85);
+    height: 250px;
+    width: 800px;
+    position: absolute;
+    left: 10px;
+
+}
+.last{
+    background-color: greenyellow;
+    padding: 20px;
+    position: sticky;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    width: 550px;
+    font-size: x-large;
+    font-weight: bold;
+    color: red; 
+  position: fixed;
+  bottom: 45px;
+    right: 300px;
+    
+}
+.last1{
+    margin: 3px;
+}
+.last2{
+    margin: 3px;
+    position: absolute;
+    left: 350px;
+}
