@@ -1,0 +1,144 @@
+
+.box{
+    
+    background-image: linear-gradient(to right , red,green,yellow);
+    height: 50px;
+    border: 1px solid;
+
+}
+.line{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+   text-align: center;
+   text-decoration: underline;
+}
+.list{
+    margin: 10px;
+    margin-left: 250px;
+    border: 3px solid red;
+    border-radius: 15px;
+    background-color: cadetblue;
+    width: 70%;
+}
+.list1{
+    
+}
+.list2{
+  width: 250px;
+ height: 80px;
+ color: black;
+ border: 1px solid cadetblue;
+ display: inline-block;
+margin-left: 550px;
+text-align: center;
+ 
+}
+.list3{
+   
+}
+.gridcontainer {
+    border: 2px solid lightseagreen;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: aquamarine;
+    border-radius: 20px;
+
+}
+.griditem {
+    border: 2px solid green;
+    background-color: aqua;
+    width: 510px;
+    border-radius: 10px;
+}
+.box1
+{
+    grid-column-start: 1;
+    
+}
+.box4{
+    
+}
+.color{
+    
+    background-image: radial-gradient(circle, yellow, red);
+    height: 50px;
+    border: 1px solid brown
+}
+.line1{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.flex{
+    background-image: radial-gradient(  blue,green);
+    display: flex;
+    padding: 20px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+
+}
+.flexitem{
+    color: red;
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: gold;
+    width: 200px;
+    height: 100px;
+    
+    text-align: center;
+    line-height: 30px;
+    text-decoration: underline;
+    margin: 50px;
+
+
+}
+.grid{
+    font-size: larger;
+    color: white;
+      font-weight: bold;
+      margin: 10px;
+      
+}
+.gridcontainer1{
+    border: 1px solid black;
+    
+    
+    
+}
+.griditem1{
+    
+      
+    background-color:crimson;
+    text-align: center;
+    height: 40px;
+    
+}
+.griditem2{
+    background-color: lightgreen;
+    
+}
+.griditem3{
+    background-color: rgb(112, 112, 219);
+    
+}
+.griditem4{
+    background-color: blue;
+    
+}
+.griditem5{
+    background-color: black;
+    
+}
+.griditem6{
+    background-color: orange;
+    
+}
+.griditem7{
+    background-color: aqua;
+    text-align: center;
+}
