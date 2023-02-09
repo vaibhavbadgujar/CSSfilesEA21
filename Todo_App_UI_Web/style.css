@@ -1,39 +1,220 @@
+body{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}.task{
+    display: inline-block;
+    font-size: 50px;
+}
+.list{
+    display: inline-block;
+    color: #00A5EC !important;
+    font-size: 50px;
+}
+.button{
+    background-color:#00A5EC;
+    border-radius: 50%;
+    width: 32px ;
+    height: 32px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+.new{
+    display: inline-block;
+}
+.box{
+    width: 30%;
+    height: 350px;
+    border: 1px solid black;
+    margin-left: 34px;
+    background-color: #FFFFFF;
+    margin-top: auto;
+    border-radius: 10px;
+}
 
-.header{
-    padding: 15px;
-    
-
+.flex{
+    display: flex;
+    width:100%;
+    height: 900px;  
+    flex-wrap: wrap;
+    background-color:#7B7B7B29;
+}
+.heading{
+    color: #00A5EC;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.line{
+    text-decoration: line-through;
+    color: #C2C2C2;
+    font-size: 30px;
+}
+.checkbox{
+    margin: 20px;
+    font-size: 40px;
+    transform: scale(2);
+}
+.line{
+    margin-left: -10px;
+}
+.last{
+ 
+    font-size: 30px;
+    margin-left: -10px;
 }
 .h1{
-    color: black;
+    position: absolute;
+    left: 1160px;
+    top:100px;
+    font-size: 25px;
+    width: 189px;
+    height: 42px;
     
 }
-.h2{
-    color: #00A5EC;
-display: inline;
+.start{
+    font-size: larger;
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    height: 50px;
 }
+.background{
+ filter: opacity(0.5);
+    background-color: rgba(220, 161, 161, 0.644); 
+   
+    filter:brightness(70%);
+}
+.box:hover{
+    box-shadow: 2px 2px 7px 2px  rgb(234, 204, 204);
 
-
-.flex-container {
-    margin: 0px;
-    display: flex;
-    flex-flow: row wrap;
-    background-color: #67676729;
+    background-color: rgba(207, 169, 169, 0.847);
 }
-.flexhead {
-    color: #00A5EC;
-}
-.innerbox {
-    font-size: xx-large;
-    text-align: center;
-    margin: 40px;
-    flex: 30%;
-    border: 5px ;
-    justify-content: space-evenly;
-    border-radius: 10px;
+.box22{
+    width: 500px;
+    height:  220px;
+    border: 2px solid black;
+    border-radius: 25px;
+    position: absolute;
     background-color: white;
-    border: 1px solid #FFFFFF;  
-width: 352px;
-height: 360px;
-display: inline;
+    top: 180px;
+    left: 550px;
+    
+}
+.add{
+    font-size: 25px;
+    margin: 10px;
+ font-weight: bold;
+}
+.button2{
+    background-color:#00A5EC ;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.x{
+    border-radius: 50%;
+    border: none;
+    width: 32px;
+    height: 33px;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 440px;
+    text-align: center;
+}
+.box222{
+    width: 450px;
+    height: 25px;
+    position: absolute;
+    right: 9px;
+    top: 70px;
+}
+.check2{
+    
+    margin: 20px;
+    font-size: 40px;
+    transform: scale(2);
+}
+
+
+.aero{
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    display: inline;
+    background-color: black;
+    color: white;
+    
+
+}
+.back{
+    display: inline;
+}
+.button31{
+    background-color:#00A5EC;
+    border-radius: 50%;
+    width: 32px ;
+    height: 32px;
+    border: none;
+    font-size: 22px;
+    text-align: center;
+
+}
+.new3{
+    display: inline-block;
+}
+.back1{
+    position: absolute;
+    top: 135px;
+    left: 480px;
+    font-size: 25px;
+}
+.h22{
+    position: absolute;
+    top: 130px;
+    left: 709px;
+    font-size: 25px;
+}
+.box88{
+    position: absolute;
+    top: 188px;
+    left: 480px;
+    width: 30%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+.color3{
+    background-color:#67676729 ;
+    width: 100%;
+    height: 900px;
+
+}
+.last4{
+    filter: opacity(0.5);
+    background-color: rgba(204, 167, 167, 0.559);
+}
+.box2223{
+    width: 500px;
+    height:  220px;
+    border: 2px solid black;
+    border-radius: 25px;
+    position: absolute;
+    background-color: white;
+    top: 197px;
+    left: 507px;
+    z-index: 1;
+}
+.C999{
+    height: 1050px;
+    background-color:#C2C2C2 ;
 }
