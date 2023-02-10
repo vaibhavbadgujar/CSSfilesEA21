@@ -251,21 +251,7 @@ transition-timing-function: linear;
     }
 
 }
-/* .city{ 
-    width:1000%;
-    position: absolute;
-    bottom: 243px;
-    z-index: 1;
-    animation-name: city;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    background-repeat: repeat-x;
-}
-@keyframes city {
-    100%{
-        transform: translateX(-2250px);
-    }
-} */
+
 .city{
     height: 240px;
     width: 600%;
