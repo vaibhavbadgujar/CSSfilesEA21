@@ -1,0 +1,256 @@
+.task{
+    display: inline-block;
+    font-size: x-large;
+}
+.list{
+    display: inline-block;
+    color: rgba(17, 146, 220, 0.882) !important;
+    font-size: 30px;
+}
+.button{
+    border-radius: 50%;
+    background-color: rgba(17, 146, 220, 0.882) ;
+    border: none;
+    transform: scale(2);
+    
+}
+.add{
+    float: right;
+}
+.tasktext{
+    font-size: 30px;
+    
+
+}
+.card{
+    width: 30%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+.bgcolor{
+    padding: 10px 60px;
+    background-color: rgb(174, 224, 214);
+    position: relative;
+    
+}
+.parent{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.heading{
+    color: rgba(17, 146, 220, 0.882);
+    margin: 20px;
+    font-size: 40px;
+}
+.line{
+    text-decoration: line-through;
+    color: gray;
+    font-size: 30px;
+}
+.checkbox{
+    margin: 20px;
+    font-size: 40px;
+    transform: scale(2);
+}
+.line{
+    margin-left: -10px;
+}
+.check2{
+    
+    margin: 20px;
+    font-size: 40px;
+    transform: scale(2);
+}
+.last{
+    /* margin-left: 20px; */
+    /* margin-top: 10px; */
+    font-size: 30px;
+    margin-left: -10px;
+}
+.baap{
+    filter: opacity(0.5);
+    filter: brightness(70%);
+}
+.box22{
+    width: 400px;
+    height:  170px;
+    border: 2px solid black;
+    border-radius: 25px;
+    position: absolute;
+    background-color: white;
+    top: 180px;
+    left: 550px;
+    
+}
+.add2{
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.button2{
+    background-color:rgba(17, 146, 220, 0.882) ;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.x{
+    border-radius: 50%;
+    border: none;
+    width: 32px;
+    height: 33px;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    text-align: center;
+}
+.box222{
+    width: 375px;
+    height: 25px;
+    position: absolute;
+    right: 9px;
+    top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aero{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline;
+    background-color: black;
+    color: white;
+    
+
+}
+.back{
+    display: inline;
+}
+.button31{
+    background-color: rgba(17, 146, 220, 0.882);
+    border-radius: 50%;
+    width: 32px ;
+    height: 32px;
+    border: none;
+    font-size: 22px;
+    text-align: center;
+
+}
+.new3{
+    display: inline-block;
+}
+.back1{
+    position: absolute;
+    top: 135px;
+    left: 480px;
+    font-size: 25px;
+}
+.h22{
+    position: absolute;
+    top: 130px;
+    left: 709px;
+    font-size: 25px;
+}
+.color3{
+    background-color:rgb(174, 224, 214);
+    width: 100%;
+    height: 900px;
+
+}
+.box88 {
+    position: absolute;
+    top: 188px;
+    left: 480px;
+    width: 30%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+.page4{
+    
+    filter: brightness(70%);
+}
+.box2223{
+    width: 400px;
+    height:  220px;
+    border: 2px solid black;
+    border-radius: 25px;
+    position: absolute;
+    background-color: white;
+    top: 197px;
+    left: 507px;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 540px){
+    .add{
+        float: none;
+        text-align: center;
+    }
+    .tasktext{
+        display: none;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 10px;
+        height: 300px;
+    }
+    .greybg{
+        padding: 10px 20px;
+    }
+    .parent{
+        height: auto;
+    }
+    .box22{
+        width: 85%;
+        height: 300px;
+        left: 7%;
+        
+    }
+    .box222{
+        width: 85%;
+    }
+    .x{
+        left: 85%;
+    }
+    .box88{
+        left: 5%;
+        width: 90%;
+    }
+    .back1{
+        left: 10%;
+    }
+    .h22{
+        left: 40%;
+    }
+    .box2223{
+        width: 90%;
+        left: 6%;
+    }
+}
